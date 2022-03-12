@@ -25,6 +25,6 @@ services:
       FORCE_RENEW: 'true'
     volumes: 
       - https-portal-data:/var/lib/https-portal
-      - ~/https-portal/vhosts:/var/www/vhosts
+      - /data/https-portal/vhosts:/var/www/vhosts
 volumes:
   https-portal-data:
