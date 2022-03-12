@@ -7,6 +7,7 @@ sudo apt-get install unattended-upgrades
 sudo dpkg-reconfigure -plow unattended-upgrades
 sudo passwd -l root
 
+# Firewall
 sudo apt install ufw -y
 sudo ufw start
 sudo ufw enable
