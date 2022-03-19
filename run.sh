@@ -23,4 +23,4 @@ sudo apt install docker-compose -y
 
 # Docker
 sudo docker-compose up -d
-sudo mv data /
+sudo cp -r data /
